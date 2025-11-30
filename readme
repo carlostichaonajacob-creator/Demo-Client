@@ -1,0 +1,163 @@
+# CapeBlue Pool Care
+
+A professional, responsive website for CapeBlue Pool Care - a Cape Town-based pool cleaning, repair, and renovation service.
+
+## 🌊 About
+
+CapeBlue Pool Care provides reliable pool maintenance services throughout Cape Town, Western Cape. With over 10 years of experience, we specialize in:
+
+- Weekly & bi-weekly pool cleaning
+- Pipe repairs & leak detection
+- Tile and brick work
+- Complete pool renovations
+
+## 🚀 Features
+
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices
+- **Interactive Hero Slider**: Automatic rotating background images with manual controls
+- **Mobile-First Navigation**: Hamburger menu with smooth animations
+- **Accessibility**: WCAG compliant with proper ARIA labels and keyboard navigation
+- **SEO Optimized**: Structured data (JSON-LD), meta tags, and semantic HTML
+- **Performance**: Optimized images and CSS animations
+- **WhatsApp Integration**: Direct contact via floating WhatsApp button
+
+## 📁 Project Structure
+
+```
+capeblue-pool-care/
+├── index.html              # Main landing page
+├── assets/
+│   ├── css/
+│   │   └── style.css       # Main stylesheet with responsive design tokens
+│   ├── js/
+│   │   └── script.js       # Interactive features (slider, mobile menu)
+│   └── images/             # Image assets
+├── services/
+│   └── index.html          # Services page
+├── gallery.html            # Gallery page
+├── about.html              # About page
+├── faq.html                # FAQ page
+├── contact.html            # Contact page
+├── README.md               # This file
+├── LICENSE                 # MIT License
+├── .gitignore              # Git ignore rules
+└── vercel.json             # Vercel deployment config
+```
+
+## 🛠️ Technologies Used
+
+- **HTML5**: Semantic markup
+- **CSS3**: Custom properties (CSS variables), Grid, Flexbox
+- **JavaScript**: Vanilla JS for interactions
+- **Google Fonts**: Inter font family
+- **Pexels**: Stock photography
+- **Schema.org**: LocalBusiness structured data
+
+## 🎨 Design System
+
+The project uses a comprehensive design token system with responsive breakpoints:
+
+- **Colors**: Blue primary palette with complementary seafoam and sand tones
+- **Typography**: Inter font with responsive sizing (desktop → mobile)
+- **Spacing**: Multiplier-based system that scales across breakpoints
+- **Breakpoints**: 
+  - Desktop (≥992px)
+  - Tablet (768-991px)
+  - Large Phone (481-767px)
+  - Small Phone (381-480px)
+  - Tiny Phone (≤380px)
+
+## 📱 Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
+
+## 🚀 Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. Push this repository to GitHub
+2. Visit [vercel.com](https://vercel.com)
+3. Click "New Project"
+4. Import your GitHub repository
+5. Vercel will automatically detect the configuration
+6. Click "Deploy"
+
+### Manual Deployment
+
+You can host this site on any static hosting service:
+
+- **Netlify**: Drag and drop the folder
+- **GitHub Pages**: Enable in repository settings
+- **Cloudflare Pages**: Connect your repository
+
+## 🔧 Local Development
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/capeblue-pool-care.git
+cd capeblue-pool-care
+```
+
+2. Open with a local server:
+```bash
+# Using Python
+python -m http.server 8000
+
+# Using Node.js
+npx serve
+
+# Using PHP
+php -S localhost:8000
+```
+
+3. Visit `http://localhost:8000` in your browser
+
+## 📝 Customization
+
+### Update Contact Information
+
+Edit the following in `index.html`:
+
+- Phone numbers: Search for `+27 21 555 0123` and `+27 82 555 0123`
+- Email: Replace `info@capebluepool.co.za`
+- WhatsApp: Update `https://wa.me/27825550123`
+
+### Change Colors
+
+Modify CSS variables in `assets/css/style.css`:
+
+```css
+:root {
+  --cb-primary-600: #0F6CA8;
+  --cb-primary-500: #1780C4;
+  /* ... etc */
+}
+```
+
+### Add Images
+
+Place images in `assets/images/` and update references in HTML files.
+
+## 🤝 Contributing
+
+This is a client project and not currently accepting contributions.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact
+
+**CapeBlue Pool Care**
+- Phone: +27 21 555 0123
+- Mobile: +27 82 555 0123
+- Email: info@capebluepool.co.za
+- Location: Cape Town, Western Cape, ZA
+
+---
+
+Built with care for Cape Town pool owners 🏊‍♂️
